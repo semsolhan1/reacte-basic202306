@@ -55,7 +55,8 @@ const FoodList = () => {
             fName: '짜장면',
             price: 6000,
             id: 'chinese'
-        }, */}
+        }, 
+        f.fName으로는 FoodItem.js파일에 있는 foodName을 fName으로 바꿔주었다.*/}
     </ul>
 
   );
