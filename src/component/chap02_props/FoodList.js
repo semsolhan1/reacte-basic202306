@@ -44,9 +44,18 @@ const FoodList = () => {
         {/* <FoodItem foodName='짜장면' price={6000} foodId='chinese' />
         <FoodItem foodName='해물파전' price={12000} foodId='korean' />
         <FoodItem foodName='가츠동' price={8000} foodId='japanese' /> */}
+
         {
             food.foodList.map(f => <FoodItem foodName={f.fName} price={f.price} foodId={f.id} />)
         }
+{/*  const food = {
+    id: 327432,
+    foodList : [
+        {
+            fName: '짜장면',
+            price: 6000,
+            id: 'chinese'
+        }, */}
     </ul>
 
   );
