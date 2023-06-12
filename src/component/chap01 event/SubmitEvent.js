@@ -20,7 +20,7 @@ const SubmitEvent = () => {
 
   return (
 
-    <form onSubmit={send}>
+    <form onSubmit={send}>{/* submit이 발동중에 발동 중지를 하는 send 함수 작동 */}
         <input type='text' id='nickName' name='nick' />
         <button style={buttonStyle} type='submit'>확인</button>
     </form>
