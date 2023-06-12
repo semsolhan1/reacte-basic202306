@@ -1,6 +1,8 @@
 
 import './App.css';
 import SayHello from './SayHello';
+import SubmitEvent from './component/chap01 event/SubmitEvent';
+
 
 
 
@@ -25,7 +27,7 @@ function App() {
   //{} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>
-        { looping() }
+        <SubmitEvent />
     </>
   );
 }
