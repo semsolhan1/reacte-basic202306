@@ -22,3 +22,10 @@ $ npm start
 - http://localhost:3000 에서 프론트엔드 서버 실행.
 
 
+# git clone 시 주의사항
+---
+```
+$ npm install
+```
+명령을 터미널에서 실행하여 라이브러리 설치 node-moduls를 githube에 올라가지 않기 때문에
+
