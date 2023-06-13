@@ -3,6 +3,8 @@ import './App.css';
 import SayHello from './SayHello';
 
 import FoodList from './component/chap02_props/FoodList';
+import Counter from './component/chap03_state/Counter';
+import NickName from './component/chap03_state/NickName';
 
 
 
@@ -28,7 +30,7 @@ function App() {
   //{} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>
-        <FoodList />
+        <Counter />
     </>
   );
 }
